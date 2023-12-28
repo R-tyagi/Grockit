@@ -1,0 +1,6 @@
+framework module Pods_Grockit {
+  umbrella header "Pods-Grockit-umbrella.h"
+
+  export *
+  module * { export * }
+}

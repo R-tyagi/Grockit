@@ -13,9 +13,23 @@
 		9D25ACD72B3BE67300204B64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D25ACD52B3BE67300204B64 /* Main.storyboard */; };
 		9D25ACD92B3BE67700204B64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D25ACD82B3BE67700204B64 /* Assets.xcassets */; };
 		9D25ACDC2B3BE67700204B64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D25ACDA2B3BE67700204B64 /* LaunchScreen.storyboard */; };
+		9D25ACE92B3BE70700204B64 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D25ACE82B3BE70700204B64 /* Auth.storyboard */; };
+		9D25ACF02B3BECDA00204B64 /* LoginViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D25ACEF2B3BECDA00204B64 /* LoginViewC.swift */; };
+		9D25ACF62B3BEF2800204B64 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D25ACF52B3BEF2800204B64 /* Alert.swift */; };
+		9D25ACF82B3BEF6D00204B64 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D25ACF72B3BEF6D00204B64 /* UIView+Extensions.swift */; };
+		9D25ACFB2B3BEFBF00204B64 /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D25ACFA2B3BEFBF00204B64 /* Validations.swift */; };
+		9D25ACFD2B3BF77700204B64 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D25ACFC2B3BF77700204B64 /* Home.storyboard */; };
+		9D25AD002B3BF80800204B64 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D25ACFF2B3BF80800204B64 /* HomeViewController.swift */; };
+		9D25AD052B3BF85700204B64 /* OrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D25AD042B3BF85700204B64 /* OrderVC.swift */; };
+		9D25AD082B3BF88400204B64 /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D25AD072B3BF88400204B64 /* UserVC.swift */; };
+		9D25AD0B2B3C004F00204B64 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D25AD0A2B3C004F00204B64 /* SignUpVC.swift */; };
+		9D25AD0D2B3C081800204B64 /* SignUpVC+CustomMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D25AD0C2B3C081800204B64 /* SignUpVC+CustomMethods.swift */; };
+		CC106D453B73BCA74651A273 /* Pods_Grockit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC5FD531EBEDE89F7DBC6A1 /* Pods_Grockit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		497C853135B52E6BA907462A /* Pods-Grockit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grockit.release.xcconfig"; path = "Target Support Files/Pods-Grockit/Pods-Grockit.release.xcconfig"; sourceTree = "<group>"; };
+		71A49A0A7294C310EC312ED2 /* Pods-Grockit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grockit.debug.xcconfig"; path = "Target Support Files/Pods-Grockit/Pods-Grockit.debug.xcconfig"; sourceTree = "<group>"; };
 		9D25ACCC2B3BE67300204B64 /* Grockit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grockit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D25ACCF2B3BE67300204B64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D25ACD12B3BE67300204B64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,18 @@
 		9D25ACD82B3BE67700204B64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D25ACDB2B3BE67700204B64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D25ACDD2B3BE67700204B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D25ACE82B3BE70700204B64 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		9D25ACEF2B3BECDA00204B64 /* LoginViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewC.swift; sourceTree = "<group>"; };
+		9D25ACF52B3BEF2800204B64 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		9D25ACF72B3BEF6D00204B64 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		9D25ACFA2B3BEFBF00204B64 /* Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
+		9D25ACFC2B3BF77700204B64 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		9D25ACFF2B3BF80800204B64 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9D25AD042B3BF85700204B64 /* OrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderVC.swift; sourceTree = "<group>"; };
+		9D25AD072B3BF88400204B64 /* UserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
+		9D25AD0A2B3C004F00204B64 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		9D25AD0C2B3C081800204B64 /* SignUpVC+CustomMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUpVC+CustomMethods.swift"; sourceTree = "<group>"; };
+		CFC5FD531EBEDE89F7DBC6A1 /* Pods_Grockit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grockit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC106D453B73BCA74651A273 /* Pods_Grockit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		496C18EEB20022C8FEBE7874 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71A49A0A7294C310EC312ED2 /* Pods-Grockit.debug.xcconfig */,
+				497C853135B52E6BA907462A /* Pods-Grockit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9D25ACC32B3BE67300204B64 = {
 			isa = PBXGroup;
 			children = (
 				9D25ACCE2B3BE67300204B64 /* Grockit */,
 				9D25ACCD2B3BE67300204B64 /* Products */,
+				496C18EEB20022C8FEBE7874 /* Pods */,
+				E9EAB867EF87D24400162E7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +94,146 @@
 		9D25ACCE2B3BE67300204B64 /* Grockit */ = {
 			isa = PBXGroup;
 			children = (
-				9D25ACCF2B3BE67300204B64 /* AppDelegate.swift */,
-				9D25ACD12B3BE67300204B64 /* SceneDelegate.swift */,
-				9D25ACD32B3BE67300204B64 /* ViewController.swift */,
-				9D25ACD52B3BE67300204B64 /* Main.storyboard */,
-				9D25ACD82B3BE67700204B64 /* Assets.xcassets */,
-				9D25ACDA2B3BE67700204B64 /* LaunchScreen.storyboard */,
+				9D25ACE32B3BE69200204B64 /* SystemFiles */,
+				9D25ACE72B3BE6CE00204B64 /* Resources */,
+				9D25ACE42B3BE6A300204B64 /* Controllers */,
+				9D25ACE52B3BE6B700204B64 /* Storyboards */,
 				9D25ACDD2B3BE67700204B64 /* Info.plist */,
 			);
 			path = Grockit;
+			sourceTree = "<group>";
+		};
+		9D25ACE32B3BE69200204B64 /* SystemFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9D25ACCF2B3BE67300204B64 /* AppDelegate.swift */,
+				9D25ACD12B3BE67300204B64 /* SceneDelegate.swift */,
+				9D25ACD32B3BE67300204B64 /* ViewController.swift */,
+			);
+			path = SystemFiles;
+			sourceTree = "<group>";
+		};
+		9D25ACE42B3BE6A300204B64 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9D25ACFE2B3BF7E200204B64 /* Home */,
+				9D25ACEA2B3BE70F00204B64 /* AuthVC */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9D25ACE52B3BE6B700204B64 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9D25ACD52B3BE67300204B64 /* Main.storyboard */,
+				9D25ACDA2B3BE67700204B64 /* LaunchScreen.storyboard */,
+				9D25ACE82B3BE70700204B64 /* Auth.storyboard */,
+				9D25ACFC2B3BF77700204B64 /* Home.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9D25ACE62B3BE6C500204B64 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9D25ACD82B3BE67700204B64 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9D25ACE72B3BE6CE00204B64 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D25ACF92B3BEFA600204B64 /* Validation */,
+				9D25ACF42B3BEDA200204B64 /* Helper */,
+				9D25ACE62B3BE6C500204B64 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9D25ACEA2B3BE70F00204B64 /* AuthVC */ = {
+			isa = PBXGroup;
+			children = (
+				9D25AD092B3C001200204B64 /* Signup */,
+				9D25AD012B3BF81200204B64 /* LoginVC */,
+			);
+			path = AuthVC;
+			sourceTree = "<group>";
+		};
+		9D25ACF42B3BEDA200204B64 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9D25ACF52B3BEF2800204B64 /* Alert.swift */,
+				9D25ACF72B3BEF6D00204B64 /* UIView+Extensions.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9D25ACF92B3BEFA600204B64 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				9D25ACFA2B3BEFBF00204B64 /* Validations.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		9D25ACFE2B3BF7E200204B64 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9D25AD062B3BF85F00204B64 /* UserVC */,
+				9D25AD032B3BF83100204B64 /* OrderVC */,
+				9D25AD022B3BF82100204B64 /* HomeVC */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9D25AD012B3BF81200204B64 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				9D25ACEF2B3BECDA00204B64 /* LoginViewC.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		9D25AD022B3BF82100204B64 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				9D25ACFF2B3BF80800204B64 /* HomeViewController.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		9D25AD032B3BF83100204B64 /* OrderVC */ = {
+			isa = PBXGroup;
+			children = (
+				9D25AD042B3BF85700204B64 /* OrderVC.swift */,
+			);
+			path = OrderVC;
+			sourceTree = "<group>";
+		};
+		9D25AD062B3BF85F00204B64 /* UserVC */ = {
+			isa = PBXGroup;
+			children = (
+				9D25AD072B3BF88400204B64 /* UserVC.swift */,
+			);
+			path = UserVC;
+			sourceTree = "<group>";
+		};
+		9D25AD092B3C001200204B64 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				9D25AD0A2B3C004F00204B64 /* SignUpVC.swift */,
+				9D25AD0C2B3C081800204B64 /* SignUpVC+CustomMethods.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		E9EAB867EF87D24400162E7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFC5FD531EBEDE89F7DBC6A1 /* Pods_Grockit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D25ACE02B3BE67700204B64 /* Build configuration list for PBXNativeTarget "Grockit" */;
 			buildPhases = (
+				CC87AA5167400B1BDFA8FFFF /* [CP] Check Pods Manifest.lock */,
 				9D25ACC82B3BE67300204B64 /* Sources */,
 				9D25ACC92B3BE67300204B64 /* Frameworks */,
 				9D25ACCA2B3BE67300204B64 /* Resources */,
+				429CF89C98CF59495A88F463 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +296,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D25ACE92B3BE70700204B64 /* Auth.storyboard in Resources */,
+				9D25ACFD2B3BF77700204B64 /* Home.storyboard in Resources */,
 				9D25ACDC2B3BE67700204B64 /* LaunchScreen.storyboard in Resources */,
 				9D25ACD92B3BE67700204B64 /* Assets.xcassets in Resources */,
 				9D25ACD72B3BE67300204B64 /* Main.storyboard in Resources */,
@@ -133,13 +306,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		429CF89C98CF59495A88F463 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grockit/Pods-Grockit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grockit/Pods-Grockit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Grockit/Pods-Grockit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC87AA5167400B1BDFA8FFFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Grockit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9D25ACC82B3BE67300204B64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D25ACF82B3BEF6D00204B64 /* UIView+Extensions.swift in Sources */,
+				9D25AD082B3BF88400204B64 /* UserVC.swift in Sources */,
+				9D25AD052B3BF85700204B64 /* OrderVC.swift in Sources */,
+				9D25AD0B2B3C004F00204B64 /* SignUpVC.swift in Sources */,
+				9D25ACF62B3BEF2800204B64 /* Alert.swift in Sources */,
+				9D25ACFB2B3BEFBF00204B64 /* Validations.swift in Sources */,
+				9D25AD002B3BF80800204B64 /* HomeViewController.swift in Sources */,
 				9D25ACD42B3BE67300204B64 /* ViewController.swift in Sources */,
+				9D25AD0D2B3C081800204B64 /* SignUpVC+CustomMethods.swift in Sources */,
 				9D25ACD02B3BE67300204B64 /* AppDelegate.swift in Sources */,
+				9D25ACF02B3BECDA00204B64 /* LoginViewC.swift in Sources */,
 				9D25ACD22B3BE67300204B64 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +506,7 @@
 		};
 		9D25ACE12B3BE67700204B64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A49A0A7294C310EC312ED2 /* Pods-Grockit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +534,7 @@
 		};
 		9D25ACE22B3BE67700204B64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 497C853135B52E6BA907462A /* Pods-Grockit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
