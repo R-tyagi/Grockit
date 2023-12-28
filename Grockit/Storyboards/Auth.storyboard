@@ -559,22 +559,22 @@
     </scenes>
     <designables>
         <designable name="C1a-Hb-OC1">
-            <size key="intrinsicContentSize" width="345" height="39.220703125"/>
+            <size key="intrinsicContentSize" width="41" height="18.5"/>
         </designable>
         <designable name="GnA-NJ-ZuZ">
-            <size key="intrinsicContentSize" width="345" height="39.220703125"/>
+            <size key="intrinsicContentSize" width="62.5" height="17"/>
         </designable>
         <designable name="b22-XY-WZE">
-            <size key="intrinsicContentSize" width="325" height="39.220703125"/>
+            <size key="intrinsicContentSize" width="62.5" height="18.5"/>
         </designable>
         <designable name="gQm-v9-dc8">
-            <size key="intrinsicContentSize" width="345" height="39.220703125"/>
+            <size key="intrinsicContentSize" width="41" height="18.5"/>
         </designable>
         <designable name="obq-H9-YY7">
-            <size key="intrinsicContentSize" width="345" height="39.220703125"/>
+            <size key="intrinsicContentSize" width="38" height="18.5"/>
         </designable>
         <designable name="xqy-dl-RCC">
-            <size key="intrinsicContentSize" width="325" height="39.220703125"/>
+            <size key="intrinsicContentSize" width="53" height="18.5"/>
         </designable>
     </designables>
     <resources>

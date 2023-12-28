@@ -24,6 +24,7 @@
 		9D25AD082B3BF88400204B64 /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D25AD072B3BF88400204B64 /* UserVC.swift */; };
 		9D25AD0B2B3C004F00204B64 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D25AD0A2B3C004F00204B64 /* SignUpVC.swift */; };
 		9D25AD0D2B3C081800204B64 /* SignUpVC+CustomMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D25AD0C2B3C081800204B64 /* SignUpVC+CustomMethods.swift */; };
+		9DC98C6C2B3D97E500194280 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DC98C6B2B3D97E500194280 /* GoogleService-Info.plist */; };
 		CC106D453B73BCA74651A273 /* Pods_Grockit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC5FD531EBEDE89F7DBC6A1 /* Pods_Grockit.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		9D25AD072B3BF88400204B64 /* UserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
 		9D25AD0A2B3C004F00204B64 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		9D25AD0C2B3C081800204B64 /* SignUpVC+CustomMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUpVC+CustomMethods.swift"; sourceTree = "<group>"; };
+		9DC98C6B2B3D97E500194280 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CFC5FD531EBEDE89F7DBC6A1 /* Pods_Grockit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grockit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -99,6 +101,7 @@
 				9D25ACE42B3BE6A300204B64 /* Controllers */,
 				9D25ACE52B3BE6B700204B64 /* Storyboards */,
 				9D25ACDD2B3BE67700204B64 /* Info.plist */,
+				9DC98C6B2B3D97E500194280 /* GoogleService-Info.plist */,
 			);
 			path = Grockit;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				9D25ACDC2B3BE67700204B64 /* LaunchScreen.storyboard in Resources */,
 				9D25ACD92B3BE67700204B64 /* Assets.xcassets in Resources */,
 				9D25ACD72B3BE67300204B64 /* Main.storyboard in Resources */,
+				9DC98C6C2B3D97E500194280 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
